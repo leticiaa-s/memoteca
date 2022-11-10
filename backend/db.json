@@ -1,0 +1,28 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Continue a codar, continue a codar...",
+      "autoria": "Dory programadora",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Na minha máquina funciona!",
+      "autoria": "Dev Júnior",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Merge and pull request",
+      "autoria": "Github",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Hello, world!",
+      "autoria": "Astronauta",
+      "modelo": "modelo2",
+      "id": 4
+    }
+  ]
+}
