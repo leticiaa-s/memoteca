@@ -1,12 +1,13 @@
 # Memoteca
 
-## Como rodar o projeto
+# Como rodar o projeto
 
-# Instale as dependências
+## Instale as dependências
 npm install
 
-# Para iniciar o projeto 
+## Para iniciar o projeto 
 ng serve -o
-# Para iniciar o back-end 
+
+## Para iniciar o back-end 
 entre na pasta cd backend
 execute npm start
