@@ -140,3 +140,16 @@ input[type="radio"]:checked + .custom-radio span {
   margin-top: -25px;
   margin-bottom: 20px;
 }
+
+.botao__desabilitado {
+  background: #7A7F87;
+  color: #FFFFFF;
+  max-width: 250px;
+  width: 200px;
+  padding: 1rem;
+  margin: 5px;
+  margin-top: 70px;
+  border: 2px solid #C4C4C4;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}

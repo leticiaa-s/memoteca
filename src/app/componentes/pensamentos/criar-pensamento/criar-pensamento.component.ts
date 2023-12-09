@@ -23,11 +23,12 @@ export class CriarPensamentoComponent implements OnInit {
     this.formulario = this.formBuilder.group({
       conteudo: ['', Validators.compose([
         Validators.required,
-        Validators.pattern(/(.|\s)*\S(.|\s)*/)
+        Validators.pattern(/(.|\s)*\S(.|\s)*/), //regex para impedir que o campo conteudo seja submetido com espaço
       ])],
       autoria: ['', Validators.compose([
         Validators.required,
-        Validators.minLength(3)
+        Validators.minLength(3),
+        Validators.pattern(/^[a-z]+$/) //regex para lower case
       ])],
       modelo: ['', Validators.required]
     })
@@ -46,4 +47,11 @@ export class CriarPensamentoComponent implements OnInit {
     this.router.navigate(['/listarPensamento'])
   }
 
+  habilitarBotao(){
+    if(this.formulario.valid){
+      return 'botao'
+    } else {
+      return 'botao__desabilitado'
+    }
+  }
 }
