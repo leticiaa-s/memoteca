@@ -28,7 +28,7 @@ export class CriarPensamentoComponent implements OnInit {
       autoria: ['', Validators.compose([
         Validators.required,
         Validators.minLength(3),
-        Validators.pattern(/^[a-z]+$/) //regex para lower case
+        Validators.pattern(/^[a-zà-ú\s]+$/) //regex para lower case
       ])],
       modelo: ['', Validators.required]
     })
