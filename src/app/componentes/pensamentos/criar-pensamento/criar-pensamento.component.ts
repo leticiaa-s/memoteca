@@ -30,7 +30,8 @@ export class CriarPensamentoComponent implements OnInit {
         Validators.minLength(3),
         Validators.pattern(/^[a-zà-ú\s]+$/) //regex para lower case
       ])],
-      modelo: ['', Validators.required]
+      modelo: ['', Validators.required],
+      favorito: [false]
     })
   }
 
