@@ -4,37 +4,57 @@
       "id": 1,
       "conteudo": "Continue a codar, continue a codar...",
       "autoria": "Dory programadora",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Na minha máquina funciona!",
       "autoria": "Dev Júnior",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Merge and pull request",
       "autoria": "Github",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "Hello, world!",
       "autoria": "Astronauta",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 4
     },
     {
       "conteudo": "Evoluindo a aplicação memoteca",
       "autoria": "Letícia",
       "modelo": "modelo3",
+      "favorito": true,
       "id": 5
     },
     {
       "conteudo": "Vasco no va a bajar!",
       "autoria": "Ramón Díaz",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 6
+    },
+    {
+      "conteudo": "Olá, mundo",
+      "autoria": "dev",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 7
+    },
+    {
+      "conteudo": "Ao Vasco tudo!",
+      "autoria": "vascainos",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 8
     }
   ]
 }
