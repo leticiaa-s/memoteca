@@ -8,12 +8,15 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./pensamento.component.css']
 })
 export class PensamentoComponent implements OnInit {
+  
   @Input() pensamento: Pensamento = {
     conteudo: '',
     autoria: '',
     modelo: '',
     favorito: false
   };
+
+  @Input() listaFavoritos: Pensamento[] = [];
 
   constructor(private service: PensamentoService) {}
 
@@ -35,6 +38,8 @@ export class PensamentoComponent implements OnInit {
   }
 
   favoritarPensamento() {
-    this.service.favoritar(this.pensamento).subscribe();
+    this.service.favoritar(this.pensamento).subscribe(() => {
+      this.listaFavoritos.splice(this.listaFavoritos.indexOf(this.pensamento), 1)
+    });
     }
 }
