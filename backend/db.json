@@ -32,7 +32,7 @@
       "conteudo": "Evoluindo a aplicação memoteca",
       "autoria": "Letícia",
       "modelo": "modelo3",
-      "favorito": true,
+      "favorito": false,
       "id": 5
     },
     {
@@ -53,7 +53,7 @@
       "conteudo": "Ao Vasco tudo!",
       "autoria": "vascainos",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 8
     }
   ]
